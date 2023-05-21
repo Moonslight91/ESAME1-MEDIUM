@@ -1,0 +1,315 @@
+body{
+    margin: 0;
+}
+
+header{
+    font-family:serif;
+    box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.37);
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.logo_medium{
+    font-size: 3rem;
+    margin-left: 100px;
+}
+
+.logo_medium img{
+    width: 3rem;
+}
+
+.top_page{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_right{
+    display: flex;
+    align-self: center;
+    position: relative;
+    margin-right: 100px;
+}
+
+.top_right i{
+    margin: 10px;
+    align-self: center;
+}
+
+.top_right span{
+    font-size: larger;
+    margin-right: 6px;
+    align-self: center;
+}
+
+.top_right span:first-of-type{
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 50px;
+}
+
+.top_right span:last-of-type{
+
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(255, 60, 0);
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.icon{
+    position: absolute;
+    left: -120px;
+    top: 5px;
+}
+
+/*main*/
+
+main{
+    display: flex;
+    font-family: sans-serif;
+}
+
+        /*left*/
+
+
+.left{
+    width: 60%;
+    margin-right: 5rem;
+}
+
+.left_top{
+    margin-top: 4rem;
+    border-bottom: 1px solid rgb(168, 167, 167);;
+}
+
+.left_top span{
+    margin-left: 2rem;
+    padding: 8px;
+}
+
+.left_top span:hover{
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    padding-bottom: 0;
+}
+
+.title_text{
+    font-weight: 600;
+}
+
+.title_text i{
+    background-color:rgb(255, 255, 0);
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.article{
+    margin-top: 3rem;    
+}
+
+.article p{
+    color: grey;
+}
+
+.article:hover{
+    cursor: pointer;
+}
+
+
+.text{
+    display: flex;
+}
+
+.text_container{
+    min-width: 500px;
+}
+
+.text span{
+    margin-right: 15px;
+    color: grey;
+}
+
+.article_img{
+    width: 300px;
+    overflow: hidden;
+}
+
+.article_img img{
+    width: 300px;
+    max-height: 150px;
+}
+
+.line-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+
+
+        /*right*/
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid black;
+    width: 30%;
+}
+
+.sidebar p{
+    margin-left: 3.5rem;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+#Twitter{
+    text-align: center;
+    display: inline;
+    padding: 10px;
+    background-color:white;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+#Twitter a{
+    text-decoration: none;
+    color: black;
+}
+
+#later a{
+    color: gray;
+}
+
+.aside-top{
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.aside-top div{
+    margin-bottom: 25px;
+}
+
+.topics{
+    width:70%;
+    margin-left: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topics a{
+    background-color: rgb(206, 202, 202);
+    padding: 1rem;
+    margin: 5px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.follow-card {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+
+  .follow-card i{
+    background-color: rgb(145, 145, 145);
+    padding: 15px;
+    border-radius: 50%;
+  }
+
+  .follow-card p{
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 15px
+  }
+
+  .descrizione p{
+    font-weight: 600;
+  }
+
+  .descrizione_2 {
+    margin-top: 5px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+
+  .button{
+    position: absolute;
+    border: 1px solid black;
+    padding:15px 25px;
+    border-radius: 50px;
+    left: 350px;
+  }
+
+  .saved{
+    width: 400px;
+    margin-left: 4rem;
+  }
+
+  .saved span{
+    margin-bottom: 15px;
+  }
+
+  .saved div{
+    margin-bottom: 15px; ;
+  }
+
+  .top-save i{
+    border-radius: 50%;
+    padding: 15px;
+    background-color: rgb(58, 64, 152);
+  }
+
+  .top-save span{
+    font-weight: 100;
+    margin-top: 10px;
+  }
+
+  .top-save p{
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .bottom-save{
+    margin-top: -18px;
+  }
+
+  .see{
+    margin-top: 15px;
+    text-decoration: none;
+    margin-left: 63px;
+    color: green;
+  }
+
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    margin-left: 63px;
+  }
+
+  .footer a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 30px;
+  }
